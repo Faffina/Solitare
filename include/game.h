@@ -36,8 +36,6 @@ int move_cards(card_stack* stack_a, card_stack stack_b, int n);
 // print empty card slot
 void print_card(int y, int x, card c);
 //init the ncurses
-void init();
 //return terminal to defult setings
-void end();
 
 #endif
